@@ -1,0 +1,2 @@
+# IBPO reader environment; keep the paper-matched vLLM version.
+-r recipe/ibpo/requirements-reproduction.txt

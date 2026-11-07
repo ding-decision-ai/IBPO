@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+checkpoints/
+outputs/
+.pytest_cache/

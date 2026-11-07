@@ -1,0 +1,7 @@
+hydra:
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ibpo_defaults
+  - _self_

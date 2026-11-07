@@ -1,0 +1,15 @@
+hydra:
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ibpo_defaults
+  - _self_
+
+actor_rollout_ref:
+  model:
+    path: Qwen/Qwen3-Next-80B-A3B-Thinking
+  rollout:
+    # The paper reports the maximum context, not prompt/response sub-budgets.
+    prompt_length: 258048
+    max_model_len: 262144
